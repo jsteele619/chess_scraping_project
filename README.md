@@ -1,2 +1,2 @@
-<p1>Welcome to my chess analysis project<p1>
+<h1>Welcome to my chess analysis project<h1>
 

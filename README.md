@@ -1,1 +1,2 @@
-# chess_scraping_project
+Welcome to my chess analysis project
+

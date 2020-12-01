@@ -10,8 +10,8 @@
 
 <p1> The information I collected in the dataframe includes: </p1>
   
-<h4> Date, Time of Day played, 
-  White player name, White Rating, White Result, 
-  Black Name, Black Rating, Black Result, 
-  Eco Name (refers to the opening moves), Eco Code (same), 
-  URL, and PGN score (chess notation). </h4>
+<h4> Date, Time of Day played </h4>
+ <h4> White player name, White Rating, White Result, </h4>
+ <h4> Black Name, Black Rating, Black Result, </h4>
+<h4>  Eco Name (refers to the opening moves), Eco Code (same), </h4>
+ <h4>  URL, and PGN score (chess notation). </h4>

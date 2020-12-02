@@ -10,10 +10,10 @@
 
 <p1> The information I collected in the dataframe includes: </p1>
   
-<h4> Date, Time of Day played </h4>
- <h4> White player name, White Rating, White Result, </h4>
- <h4> Black Name, Black Rating, Black Result, </h4>
-<h4>  Eco Name (refers to the opening moves), Eco Code (same), </h4>
+<h4> Date, and Time of Day played </h4>
+ <h4> White player name, White Rating, and White Result, </h4>
+ <h4> Black Name, Black Rating, and Black Result, </h4>
+<h4>  Eco Name (refers to the opening moves), and Eco Code (same), </h4>
  <h4>  URL, and PGN score (chess notation). </h4>
 
 <p1> I saved this created dataframe to "master_df.csv". <p1>

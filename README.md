@@ -4,7 +4,7 @@
   
  ![My most recent twenty games](templates/chessgraph.png)
 
-<p1> The next part is in the file "creating_the_master_df.iypnb". I make a series of API calls to the chess.com website. First, I input the username, and get a list of archived months in url format. This list contains every month I've played a chess game on chess.com.</p1>
+<p1> Next, open [Creating the Master DF](creating_the_master_df.iypnb). Here I make a series of API calls to the chess.com website. I input the username, and get a list of archived months in url format. This list contains every month I've played a chess game on chess.com.</p1>
   
 <p1> Then I use the list of archived months, to loop through the master archive to collect the games. This came in a layered, complex json response. The process to combine all the games into a single list was complicated. Then after digging into the json response, the core data of 10-20 elements was contained in the same string. So I parsed through the string, created segments of the string, which I then called to further lists, which I then combined into a single dataframe, with each row containing all the information per game.</p1>
 

@@ -16,7 +16,7 @@
 <h4>  * Eco Name (refers to the opening moves), and Eco Code (same), </h4>
  <h4>  * URL, and PGN score (chess notation). </h4>
 
-<p1> I saved this created dataframe to [Master_DF](csv_files/master_df.csv). <p1> <br>
+<p1> I saved this created dataframe to [Master_DF](csv_files/master_df.csv). <p1> <br><br>
 <p1> From there, I transferred the data to Postgres//Sql to query the data. First I created the table, and then imported the data. In SQL, I can make complicated queries to find out trends from the entire database of chessgames. Some questions I want to answer are; do I play better during certain parts of the day? Do I have certain openings that I play better against? And I would like to graph various results as well. </p1>
 
 <p1> Last but not least, and still to be done, I want to link a chess engine computer to python within jupyter notebook, and analyze every single move I've played. Part of the data cleaning process was getting the PGN score into a computer readable format. With the chess engine, I can find further answers to my skill. </p1>

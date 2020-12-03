@@ -8,7 +8,7 @@
   
 <p1> Then I use the list of archived months, to loop through the master archive to collect the games. This came in a complex, unsegmented json response. You can see my code used to parse through the json response for the appropriate data and format. I then combined the revelant information into a single dataframe, with each row representing all the information per single game.</p1>
 
-<p1> The information I collected in the dataframe includes: </p1>
+<h2> The information I collected in the dataframe includes: </h2>
   
 <h4> * Date, and Time of Day played </h4>
  <h4> * White player name, White Rating, and White Result, </h4>

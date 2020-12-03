@@ -1,6 +1,6 @@
 <h1>Welcome to my Chess Analysis</h1>
 
-<p1> To start open up, [Scrape_Chess](scrape_chess.py.ipynb). <br> This code scrapes the chess.com site to pull the most recent game data directly from the html. Afterwards, I graph the result to show my progression in the last twenty games.</p1>
+<p1> I start with the code [Scrape_Chess](scrape_chess.py.ipynb). <br> This code scrapes the chess.com site to pull the most recent game data directly from the html. Afterwards, I graph the result to show my progression in the last twenty games.</p1>
   
  ![My most recent twenty games](templates/chessgraph.png)
 

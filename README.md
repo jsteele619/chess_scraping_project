@@ -8,7 +8,7 @@ You can run this code to get user chess information from chess.com, and automati
   
 <p1> The list of archived months is used to loop through the master archive to collect the games. This came in a complex, unsegmented json response. I wrote the code to parse through the json response for the appropriate data and format. I then combined the revelant information into a single dataframe, with each row representing all the information per single game.</p1>
 
-<p1> From there, the data transfers to Postgres//Sql to query the data. In SQL, I can make the relevant queries to get the correct data format to be able to graph. Some of the questions I asked are, what time of day is the user more or less successful? What openings does the user play? How much success does the user have with each opening?</p1>
+<p1> From there, the data transfers to Postgres/Sql to query the data. In SQL, I can make the relevant queries to get the correct data format to be able to graph. Some of the questions I asked are, what time of day is the user more or less successful? What openings does the user play? How much success does the user have with each opening?</p1>
 
 <p1> You can run the code yourself. Please make sure to make your own config.py file with the same format; login = ("username:password) </p1>
  

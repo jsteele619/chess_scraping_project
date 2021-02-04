@@ -1,6 +1,6 @@
 <h1>Welcome to my Chess Analysis</h1>
 
-You can run this code to get user chess information from chess.com, and automatically print out relevant graph to visualize the users data.
+You can run this code to get user chess information from chess.com, and automatically print out relevant graph to visualize the user's data.
 
 <p1> By running all cells in "chess_df_and_graphs.ipynb, you be prompted to input the username. Please make sure to make your own config.py file with the same format; login = ("username:password). After several moments, the relevant graphs save to graphs/{username}. The created dataframe saves to csv_files/{username}.csv.</p1>
 

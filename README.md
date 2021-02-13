@@ -1,8 +1,8 @@
 # The Chess Analysis Program
 
-You can run this code to get user chess information from chess.com, and print out statistical graphs to visualize the user's data.
+This code fetchs user chess data from chess.com, and prints out statistical visualization of the user's data.
 
-The graphs show several points of analysis. I segment the chess games by win/draw/loss by time of day. There is a graph for rating progression over time, overlayed with time controls. I show time of day played, over time. And I show results by opening choices, both for white and black.
+The graphs show several points of analysis including win/draw/loss by time of day, rating progression over time (overlayed with time controls), and opening choices, both for white and black, and the respective results. There are currently 19 output graphs, and the ability to create several more.
 
 ## The Results
 

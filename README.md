@@ -18,7 +18,7 @@ The graphs show several points of analysis. I segment the chess games by win/dra
 #### and jsteele619 percentage as black playing the sicilian
 ![black sicilian](graphs/jsteele619/openings/jsteele619_as_black_playing_sicilian_results.png)
   
-> ## The information I collected in the dataframe includes: 
+## Information collected: 
   
 > * Date, and Time of Day played
 > * White Player Name, White Rating, and White Result
@@ -29,13 +29,15 @@ The graphs show several points of analysis. I segment the chess games by win/dra
 
 ## Technical Explanation
 
-By running all cells in "chess_df_and_graphs.ipynb, you are prompted to input the username. Please make sure to make your own config.py file with the following format: login = ("username:password). After several moments, the relevant graphs save to graphs/{username}. The created dataframe saves to csv_files/{username}.csv.
+_Please make sure to make your own config.py file with the following format: login = ("username:password)_
 
-<p1> Python makes a series of API calls to the chess.com website with the username. The code receives a list of archived months in url format. This list contains every month the user has played a chess game on chess.com.</p1>
+Run all cells in "chess_df_and_graphs.ipynb. You are prompted to input the username. After several moments, the relevant graphs save to graphs/{username}. The created dataframe saves to csv_files/{username}.csv
+
+Python makes a series of API calls to the chess.com website with the username. The code receives a list of archived months in url format. This list contains every month the user has played a chess game on chess.com.
   
-<p1> The list of archived months is used to loop through the master archive to collect the games. This came in a complex, unsegmented json response (actually a tab delimited dataset). I wrote the code to parse through the json response for the appropriate data and format. I then combined the revelant information into a single dataframe, with each row representing all the information per single game.</p1>
+The list of archived months is used to loop through the master archive to collect the games. This came in a complex, unsegmented json response (actually a tab delimited dataset). I wrote the code to parse through the json response for the appropriate data and format. I then combined the revelant information into a single dataframe, with each row representing all the information per single game.
 
-<p1> From there, the data transfers to Postgres/Sql to query the data. In SQL, I can make the relevant queries to get the correct data format to be able to graph. Some of the questions I asked are, what time of day is the user more or less successful? What openings does the user play? How much success does the user have with each opening?</p1>
+From there, the data transfers to Postgres/Sql to query the data. In SQL, I can make the relevant queries to get the correct data format to be able to graph. Some of the questions I asked are, what time of day is the user more or less successful? What openings does the user play? How much success does the user have with each opening?
  
 ## The information I collected in the dataframe includes: 
   

@@ -4,7 +4,7 @@ You can run this code to get user chess information from chess.com, and print ou
 
 The graphs show several points of analysis. I segment the chess games by win/draw/loss by time of day. There is a graph for rating progression over time, overlayed with time controls. I show time of day played, over time. And I show results by opening choices, both for white and black.
 
-## Here are some graphs
+## The Results
 
 #### Chess results by time of day
 ![Chess by Time of Day](/graphs/jsteele619/time_based/comparison_of_time_of_day.png)

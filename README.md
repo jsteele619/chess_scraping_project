@@ -14,6 +14,14 @@ You can run this code to get user chess information from chess.com, and automati
 
 <p1> From there, the data transfers to Postgres/Sql to query the data. In SQL, I can make the relevant queries to get the correct data format to be able to graph. Some of the questions I asked are, what time of day is the user more or less successful? What openings does the user play? How much success does the user have with each opening?</p1>
 
+## Here are some graphs
+
+#### Chess results by time of day
+![Chess by Time of Day](/graphs/jsteele619/time_based/comparison_of_time__of_day.png)
+
+#### Jsteele619 as white first move
+![First Move](graphs/jsteele619/openings/jsteele619_as_white_openings.png)
+
  
 <h2> The information I collected in the dataframe includes: </h2>
   

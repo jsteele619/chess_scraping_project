@@ -29,10 +29,10 @@ The graphs show several points of analysis. I segment the chess games by win/dra
 
 ## Technical Explanation
 
-_Please make sure to make your own config.py file with the following format: login = ("username:password")_ \
-_You should have PostgresSQL installed in your computer, and you might need to create a database named chess_db_
+_Please make sure to make your own config.py file with the following format: login = ("username:password")._ \
+_You should have PostgresSQL installed in your computer, and you might need to create a database named chess_db._
 
-Run all cells in "chess_df_and_graphs.ipynb. You are prompted to input the username. After several moments, the relevant graphs save to graphs/{username}. The created dataframe saves to csv_files/{username}.csv
+Run all cells in "chess_df_and_graphs.ipynb. You are prompted to input the username. After several moments, the relevant graphs save to graphs/{username}. The created dataframe saves to csv_files/{username}.csv.
 
 Python makes a series of API calls to the chess.com website with the username. The code receives a list of archived months in url format. This list contains every month the user has played a chess game on chess.com.
   

@@ -1,12 +1,12 @@
-<h1>Welcome to my Chess Analysis</h1>
+# Welcome to my Chess Analysis
 
 You can run this code to get user chess information from chess.com, and automatically print out relevant graph to visualize the user's data.
 
-<p1> By running all cells in "chess_df_and_graphs.ipynb, you are prompted to input the username. Please make sure to make your own config.py file with the same format; login = ("username:password). After several moments, the relevant graphs save to graphs/{username}. The created dataframe saves to csv_files/{username}.csv.</p1>
+By running all cells in "chess_df_and_graphs.ipynb, you are prompted to input the username. Please make sure to make your own config.py file with the same format; login = ("username:password). After several moments, the relevant graphs save to graphs/{username}. The created dataframe saves to csv_files/{username}.csv. <br>
 
 <p1> The graphs show several points of analysis. I segment the chess games by win/draw/loss by time of day. There is a graph for rating progression over time, overlayed with time controls. I show time of day played, over time. And I show results by opening choices, both for white and black. </p1>
   
-<h2> Technical Explanation </h2>
+## Technical Explanation
 
 <p1> Python makes a series of API calls to the chess.com website with the username. The code receives a list of archived months in url format. This list contains every month the user has played a chess game on chess.com.</p1>
   
@@ -17,7 +17,7 @@ You can run this code to get user chess information from chess.com, and automati
 ## Here are some graphs
 
 #### Chess results by time of day
-![Chess by Time of Day](/graphs/jsteele619/time_based/comparison_of_time__of_day.png)
+![Chess by Time of Day](/graphs/jsteele619/time_based/comparison_of_time_of_day.png)
 
 #### Jsteele619 as white first move
 ![First Move](graphs/jsteele619/openings/jsteele619_as_white_openings.png)

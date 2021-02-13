@@ -9,6 +9,9 @@ The graphs show several points of analysis including win/draw/loss by time of da
 #### User results by time of day
 ![Chess by Time of Day](/graphs/jsteele619/time_based/comparison_of_time_of_day.png)
 
+#### User time of day vs date played
+![Chess date](/graphs/jsteele619/time__based/time_of_day_played_vs_date.png)
+
 #### User as white first move
 ![First Move](graphs/jsteele619/openings/jsteele619_as_white_openings.png)
 
@@ -25,6 +28,14 @@ The graphs show several points of analysis including win/draw/loss by time of da
 > * Black Name, Black Rating, and Black Result
 > * Eco Name (refers to the opening moves), and Eco Code (same)
 > * URL, and PGN score (chess notation)
+
+## Analysis Found
+
+- I play much better at night. 
+- I score better as black playing less popular Caro-Kann and French defense, compared to both the mainline Italian and Sicilian games.
+- My friend Dirtisox almost exclusively plays 1. Nf3 
+- My friend HaydnOpus20 almost exclusively answers 1.e4 with the daring 1 ... Nf6 (Alekhine's defense)
+
 
 
 ## Technical Explanation

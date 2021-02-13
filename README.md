@@ -29,7 +29,7 @@ The graphs show several points of analysis. I segment the chess games by win/dra
 
 ## Technical Explanation
 
-_Please make sure to make your own config.py file with the following format: login = ("username:password")_. 
+_Please make sure to make your own config.py file with the following format: login = ("username:password")_ \
 _You should have PostgresSQL installed in your computer, and you might need to create a database named chess_db_
 
 Run all cells in "chess_df_and_graphs.ipynb. You are prompted to input the username. After several moments, the relevant graphs save to graphs/{username}. The created dataframe saves to csv_files/{username}.csv
@@ -48,6 +48,6 @@ From there, the data transfers to Postgres/Sql to query the data. In SQL, I can 
 > * Eco Name (refers to the opening moves), and Eco Code (same)
 > * URL, and PGN score (chess notation)
 
-When I have the time and experience, I would like to make a full stack website using a cloud sql server
+When I have the time and experience, I would like to make a full stack website using a cloud sql server.
 
 Still to be done, I want to link a chess engine computer to python within jupyter notebook, to analyze moves played.

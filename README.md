@@ -6,16 +6,16 @@ The graphs show several points of analysis. I segment the chess games by win/dra
 
 ## The Results
 
-#### Chess results by time of day
+#### User results by time of day
 ![Chess by Time of Day](/graphs/jsteele619/time_based/comparison_of_time_of_day.png)
 
-#### Jsteele619 as white first move
+#### User as white first move
 ![First Move](graphs/jsteele619/openings/jsteele619_as_white_openings.png)
 
-#### Jsteele619 as black against e4
+#### User as black against e4
 ![black against e4](graphs/jsteele619/openings/jsteele619_as_black_against_e4.png)
 
-#### and jsteele619 percentage as black playing the sicilian
+#### User percentage as black playing the sicilian
 ![black sicilian](graphs/jsteele619/openings/jsteele619_as_black_playing_sicilian_results.png)
   
 ## Information collected: 

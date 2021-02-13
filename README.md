@@ -1,4 +1,4 @@
-# The Chess Analysis application
+# The Chess Analysis Program
 
 You can run this code to get user chess information from chess.com, and print out statistical graphs to visualize the user's data.
 

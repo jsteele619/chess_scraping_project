@@ -16,8 +16,17 @@ The graphs show several points of analysis. I segment the chess games by win/dra
 ![black against e4](graphs/jsteele619/openings/jsteele619_as_black_against_e4.png)
 
 #### and jsteele619 percentage as black playing the sicilian
-![black sicilian](graphs/jsteele619/openings/jsteele619_as_black_playing_sicilian_results.png
+![black sicilian](graphs/jsteele619/openings/jsteele619_as_black_playing_sicilian_results.png)
   
+> ## The information I collected in the dataframe includes: 
+  
+> * Date, and Time of Day played
+> * White Player Name, White Rating, and White Result
+> * Black Name, Black Rating, and Black Result
+> * Eco Name (refers to the opening moves), and Eco Code (same)
+> * URL, and PGN score (chess notation)
+
+
 ## Technical Explanation
 
 By running all cells in "chess_df_and_graphs.ipynb, you are prompted to input the username. Please make sure to make your own config.py file with the following format: login = ("username:password). After several moments, the relevant graphs save to graphs/{username}. The created dataframe saves to csv_files/{username}.csv.

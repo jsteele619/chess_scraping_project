@@ -2,8 +2,6 @@
 
 You can run this code to get user chess information from chess.com, and print out statistical graphs to visualize the user's data.
 
-> By running all cells in "chess_df_and_graphs.ipynb, you are prompted to input the username. Please make sure to make your own config.py file with the following format: login = ("username:password). After several moments, the relevant graphs save to graphs/{username}. The created dataframe saves to csv_files/{username}.csv. <br>
-
 The graphs show several points of analysis. I segment the chess games by win/draw/loss by time of day. There is a graph for rating progression over time, overlayed with time controls. I show time of day played, over time. And I show results by opening choices, both for white and black.
 
 ## Here are some graphs
@@ -15,6 +13,8 @@ The graphs show several points of analysis. I segment the chess games by win/dra
 ![First Move](graphs/jsteele619/openings/jsteele619_as_white_openings.png)
   
 ## Technical Explanation
+
+By running all cells in "chess_df_and_graphs.ipynb, you are prompted to input the username. Please make sure to make your own config.py file with the following format: login = ("username:password). After several moments, the relevant graphs save to graphs/{username}. The created dataframe saves to csv_files/{username}.csv.
 
 <p1> Python makes a series of API calls to the chess.com website with the username. The code receives a list of archived months in url format. This list contains every month the user has played a chess game on chess.com.</p1>
   

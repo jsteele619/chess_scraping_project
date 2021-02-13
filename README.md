@@ -10,7 +10,7 @@ The graphs show several points of analysis including win/draw/loss by time of da
 ![Chess by Time of Day](/graphs/jsteele619/time_based/comparison_of_time_of_day.png)
 
 #### User time of day vs date played
-![Chess date](/graphs/jsteele619/time__based/time_of_day_played_vs_date.png)
+![Chess date](/graphs/jsteele619/time_based/time_of_day_played_vs_date.png)
 
 #### User as white first move
 ![First Move](graphs/jsteele619/openings/jsteele619_as_white_openings.png)
@@ -31,11 +31,11 @@ The graphs show several points of analysis including win/draw/loss by time of da
 
 ## Analysis Found
 
-- I play much better at night. 
-- I score better as black playing less popular Caro-Kann and French defense, compared to both the mainline Italian and Sicilian games.
+- I play much better at night. You can also extrapolate sleep patterns.
+- I score better as black playing the less popular Caro-Kann and French defenses, compared to both the mainline Italian and Sicilian games.
 - My friend Dirtisox almost exclusively plays 1. Nf3 
 - My friend HaydnOpus20 almost exclusively answers 1.e4 with the daring 1 ... Nf6 (Alekhine's defense)
-
+- You can the period of time where I traveled or lived abroad.
 
 
 ## Technical Explanation

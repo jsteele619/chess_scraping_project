@@ -29,7 +29,7 @@ The graphs show several points of analysis. I segment the chess games by win/dra
 
 ## Technical Explanation
 
-_Please make sure to make your own config.py file with the following format: login = ("username:password)_
+_Please make sure to make your own config.py file with the following format: login = ("username:password")_
 
 Run all cells in "chess_df_and_graphs.ipynb. You are prompted to input the username. After several moments, the relevant graphs save to graphs/{username}. The created dataframe saves to csv_files/{username}.csv
 

@@ -11,6 +11,12 @@ The graphs show several points of analysis. I segment the chess games by win/dra
 
 #### Jsteele619 as white first move
 ![First Move](graphs/jsteele619/openings/jsteele619_as_white_openings.png)
+
+#### Jsteele619 as black against e4
+![black against e4](graphs/jsteele619/openings/jsteele619_as_black_against_e4.png)
+
+#### and jsteele619 percentage as black playing the sicilian
+![black sicilian](graphs/jsteele619/openings/jsteele619_as_black_playing_sicilian_results.png
   
 ## Technical Explanation
 

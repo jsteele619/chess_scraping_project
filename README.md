@@ -1,23 +1,64 @@
-<h1>Welcome to my Chess Analysis</h1>
+# The Chess Analysis Program
 
-You can run this code to get user chess information from chess.com, and automatically print out relevant graph to visualize the users data.
+This code fetchs user chess data from chess.com, and prints out statistical visualization of the user's data.
 
-<p1> Please input the username. The created dataframe saves to graphs/{username}.</p1>
+The graphs show several points of analysis including win/draw/loss by time of day, rating progression over time (overlayed with time controls), and opening choices, both for white and black, and the respective results. There are currently 19 output graphs, and the ability to create several more.
 
-<p1> For a technical explanation of the code, Python makes a series of API calls to the chess.com website with the input username. Python receives a list of archived months in url format. This list contains every month the user has played a chess game on chess.com.</p1>
+## The Results
+
+#### User results by time of day
+![Chess by Time of Day](/graphs/jsteele619/time_based/comparison_of_time_of_day.png)
+
+#### User time of day vs date played
+![Chess date](/graphs/jsteele619/time_based/time_of_day_played_vs_date.png)
+
+#### User as white first move
+![First Move](graphs/jsteele619/openings/jsteele619_as_white_openings.png)
+
+#### User as black against e4
+![black against e4](graphs/jsteele619/openings/jsteele619_as_black_against_e4.png)
+
+#### User percentage as black playing the sicilian
+![black sicilian](graphs/jsteele619/openings/jsteele619_as_black_playing_sicilian_results.png)
   
-<p1> The list of archived months is used to loop through the master archive to collect the games. This came in a complex, unsegmented json response. I wrote the code to parse through the json response for the appropriate data and format. I then combined the revelant information into a single dataframe, with each row representing all the information per single game.</p1>
-
-<p1> From there, the data transfers to Postgres/Sql to query the data. In SQL, I can make the relevant queries to get the correct data format to be able to graph. Some of the questions I asked are, what time of day is the user more or less successful? What openings does the user play? How much success does the user have with each opening?</p1>
-
-<p1> You can run the code yourself. Please make sure to make your own config.py file with the same format; login = ("username:password) </p1>
- 
-<h2> The information I collected in the dataframe includes: </h2>
+## Information collected: 
   
-<h4> * Date, and Time of Day played </h4>
- <h4> * White player name, White Rating, and White Result, </h4>
- <h4> * Black Name, Black Rating, and Black Result, </h4>
-<h4>  * Eco Name (refers to the opening moves), and Eco Code (same), </h4>
- <h4>  * URL, and PGN score (chess notation). </h4>
+> * Date, and Time of Day played
+> * White Player Name, White Rating, and White Result
+> * Black Name, Black Rating, and Black Result
+> * Eco Name (refers to the opening moves), and Eco Code (same)
+> * URL, and PGN score (chess notation)
+
+## Analysis Found
+
+- I play much better at night. You can also extrapolate sleep patterns.
+- I score better as black playing the less popular Caro-Kann and French defenses, compared to both the mainline Italian and Sicilian games.
+- My friend Dirtisox almost exclusively plays 1. Nf3 
+- My friend HaydnOpus20 almost exclusively answers 1.e4 with the daring 1 ... Nf6 (Alekhine's defense)
+- You can the period of time where I traveled or lived abroad.
+
+
+## Technical Explanation
+
+_Please make sure to make your own config.py file with the following format: login = ("username:password")._ \
+_You should have PostgresSQL installed in your computer, and you might need to create a database named chess_db._
+
+Run all cells in "chess_df_and_graphs.ipynb. You are prompted to input the username. After several moments, the relevant graphs save to graphs/{username}. The created dataframe saves to csv_files/{username}.csv.
+
+Python makes a series of API calls to the chess.com website with the username. The code receives a list of archived months in url format. This list contains every month the user has played a chess game on chess.com.
+  
+The list of archived months is used to loop through the master archive to collect the games. This came in a complex, unsegmented json response (actually a tab delimited dataset). I wrote the code to parse through the json response for the appropriate data and format. I then combined the revelant information into a single dataframe, with each row representing all the information per single game.
+
+From there, the data transfers to Postgres/Sql to query the data. In SQL, I can make the relevant queries to get the correct data format to be able to graph. Some of the questions I asked are, what time of day is the user more or less successful? What openings does the user play? How much success does the user have with each opening?
  
-<p1> Last but not least, and still to be done, I want to link a chess engine computer to python within jupyter notebook, to analyze every single move I've played. </p1>
+## The information I collected in the dataframe includes: 
+  
+> * Date, and Time of Day played
+> * White Player Name, White Rating, and White Result
+> * Black Name, Black Rating, and Black Result
+> * Eco Name (refers to the opening moves), and Eco Code (same)
+> * URL, and PGN score (chess notation)
+
+When I have the time and experience, I would like to make a full stack website using a cloud sql server.
+
+Still to be done, I want to link a chess engine computer to python within jupyter notebook, to analyze moves played.

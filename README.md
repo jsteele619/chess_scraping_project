@@ -7,7 +7,7 @@ The graphs show several points of analysis including win/draw/loss by time of da
 ## The Results
 
 #### User results by time of day
-![Chess by Time of Day](/graphs/jsteele619/time_based/comparison_of_time_of_day.png)
+![Chess by Time of Day](/graphs/jsteele619/time_based/stacked_by_time_of_day.png)
 
 #### User time of day vs date played
 ![Chess date](/graphs/jsteele619/time_based/time_of_day_played_vs_date.png)

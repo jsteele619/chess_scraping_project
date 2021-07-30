@@ -10,7 +10,7 @@ The graphs show several points of analysis including win/draw/loss by time of da
 ![Chess by Time of Day](/graphs/jsteele619/time_based/stacked_by_time_of_day.png)
 
 #### User time of day vs date played
-![Chess date](/graphs/jsteele619/time_based/time_of_day_played_vs_date.png)
+![Chess date](/graphs/pawnofcapitalism/time_based/time_of_day_played_vs_date.png)
 
 #### User as white first move
 ![First Move](graphs/jsteele619/openings/jsteele619_as_white_openings.png)
